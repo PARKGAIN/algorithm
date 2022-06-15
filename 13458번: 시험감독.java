@@ -1,11 +1,14 @@
+import java.util.Scanner;
+
 public class Main {
 	public static void main(String[] args) {
-		int N =30,sum = 0,B = 10,C= 20;
-		int[] arr= new int[N];
-		for (int i = 0; i < N; i++) {
-			sum += arr[i];
-		}
-		 int result = N+(N-B)/C;
-		 System.out.println(result);
+		Scanner sc= new Scanner(System.in);
+		
+		//근데 왜 long타입으로 하지????
+		//배열
+		//부감독관이 필요없을 수도
+		
+		//(N-B) /C 가 0일때마다 부감독관이 1명씩 더 필요함
 	}
 }
+

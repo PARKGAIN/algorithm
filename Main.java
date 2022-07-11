@@ -7,5 +7,6 @@ public class Main {
 		double B = sc.nextDouble();
 		System.out.println(A/B);
 		sc.close();
+		// 처음에 int로 했더니 안됨 double로 해야함
 	}
 }

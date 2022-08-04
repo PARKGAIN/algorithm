@@ -30,3 +30,4 @@ public class Solution {
 	
 	
 }
+//1부터 9중에 배열에 없는 수 더하는 문제

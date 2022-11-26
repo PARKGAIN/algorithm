@@ -1,0 +1,19 @@
+
+### 풀이 (212ms)
+```java
+import java.util.Scanner;
+
+public class Main {
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+		int A = scanner.nextInt();
+		int B = scanner.nextInt();
+		System.out.println(A+B);
+        scanner.close();
+	}
+}
+
+
+```
+
+###### 숫자 입력이기 때문에 Scanner클래스 말고  int A = System.in.read() - 48; 이렇게 작성하면 더 빠름

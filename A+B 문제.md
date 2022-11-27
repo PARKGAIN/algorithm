@@ -27,3 +27,5 @@ let b = parseInt(input[1]);
 console.log(a+b);
 
 ```
+
+######  readline() 은 비동기이고 readFileSync()는 동기이다.

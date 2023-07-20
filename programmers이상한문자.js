@@ -1,13 +1,20 @@
 function solution(s) {
-    var answer = '';
+    let answer = '';
     let arr=[];
-
-    for(let i=0; i<=arr.length; i++){
-        if(i%2 === 0){
-            answer+=s.charAt(i).toUpperCase()
-        }else{
-            answer+=s.charAt(i)
+    arr= s.split(" ") 
+    for(let i in arr){
+        let ans=arr[i].split("")
+        for (let j in ans){
+          if(j %2 === 0){
+              ans[j] = ans[j].toUpperCase()
+          } else{
+              ans[j] = ans[j]
+          }
         }
+       ans= ans.join("")
+        //console.log(ans)
     }
-    return answer;
+   
+    console.log(answer)
+    //return answer;
 }
